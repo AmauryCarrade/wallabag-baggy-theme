@@ -71,7 +71,7 @@ h2, h3, h4 {
 }
 
 p, li {
-  color: #666;
+  color: #333;
 }
 
 a {
@@ -604,9 +604,12 @@ a#bagit-form-close:hover {
 }
 
 .add-to-wallabag-link-after {
-  background-color: #000;
-  color: #fff;
-  padding: 0 3px 2px 3px;
+  padding: 0;
+  padding-left: -3px;
+  font-size: 9px;
+  vertical-align: super;
+  font-weight: normal;
+  text-decoration: none;
 }
 
 #add-link-result {
@@ -803,10 +806,32 @@ margin-top:1em;
   margin-bottom: 3em;
   text-align: justify;
 }
+article {
+  color: #1d1d1d !important;
+  font-size: 19px;
+  font-family: 'PT Serif', Georgia, sans-serif;
+  line-height: 1.714285714;
+}
+article p {
+  margin: 0 0 1.714285714rem;
+}
+
+article a {
+  font-weight: normal;
+}
+
+article h2, article h3, article h4, article h5 {
+  font-family: 'PT Serif', Georgia, sans-serif;
+}
+header h1 {
+  font-family: 'PT Serif', Georgia, sans-serif;
+}
 
 #article .tags {
   margin-bottom: 1em;
 }
+
+
 
 #article i {
   font-style: normal;
