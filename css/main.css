@@ -927,6 +927,18 @@ blockquote {
   text-decoration: underline;
 }
 
+#article_footer {
+	margin-top: 50px;
+	text-align: center;
+	color: #333;
+}
+#article_footer a {
+	color: #333;
+	font-weight: normal !important;
+	text-decoration: none;
+	font-size: 0.9em;
+}
+
 /* ==========================================================================
    6 = Media Queries
    ========================================================================== */
