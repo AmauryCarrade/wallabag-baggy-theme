@@ -825,6 +825,7 @@ article h2, article h3, article h4, article h5 {
 }
 header h1 {
   font-family: 'PT Serif', Georgia, sans-serif;
+  text-align: left !important;
 }
 
 #article .tags {
