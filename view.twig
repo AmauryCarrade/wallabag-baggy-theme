@@ -29,10 +29,10 @@
                 {{ content | raw }}
             </article>
             <div id="article_footer">
-				{% if entry.is_read == 0 %}
-					<a title="{% trans "Mark as read" %}" href="./?action=toggle_archive&amp;id={{ entry.id|e }}">{% trans "Mark as read" %}</a>
-				{% endif %}
-			</div>
+                {% if entry.is_read == 0 %}
+                    <a title="{% trans "Mark as read" %}" href="./?action=toggle_archive&amp;id={{ entry.id|e }}">{% trans "Mark as read" %}</a>
+                {% endif %}
+            </div>
         </div>
         <script src="{{ poche_url }}themes/{{theme}}/js/restoreScroll.js"></script>
         <script type="text/javascript">

@@ -10,6 +10,10 @@ $.fn.ready(function() {
   $("#menu").click(function(){
     $("#links").toggle();
   });
+  
+  $('#search-form-close').click(function() {
+     $('#search-form').hide();
+  });
 
   /* ==========================================================================
      List mode or Table Mode

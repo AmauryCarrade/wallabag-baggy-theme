@@ -65,7 +65,7 @@ body {
   left: 0.6em; 
 }
 #logo-mobile {
-	display: none;
+  display: none;
 }
 
 h2, h3, h4 {
@@ -332,6 +332,16 @@ footer a {
 
 .listmode .entrie p {
   display: none;
+}
+
+#bottom-list-tools {
+  text-align: center;
+  margin-top: 42px;
+}
+#bottom-list-tools a {
+  color: #444;
+  text-decoration: none;
+  font-weight: normal !important;
 }
 
 .list-entries + .results {
@@ -608,16 +618,18 @@ a#bagit-form-close:hover {
 
 .add-to-wallabag-link-after {
   padding: 0;
-  padding-left: -3px;
   font-size: 9px;
   vertical-align: super;
   font-weight: normal;
   text-decoration: none;
+  position: relative;
+  right: 2px;
 }
 
 #add-link-result {
   font-weight: bold;
   margin-top: 10px;
+  display: inline;
 }
 
 /* ==========================================================================
@@ -658,7 +670,7 @@ a#search-form-close {
   text-decoration: none;
   display: inline-block;
   float: right;
-  font-size: 1.2em;
+  font-size: 0.6em;
 }
 a#search-form-close:hover {
   background: #999;
@@ -666,8 +678,7 @@ a#search-form-close:hover {
 }
 
 #submit-search{
-margin-left: 4em;
-margin-top:1em;
+  margin-top:1em;
 }
 
 /* ==========================================================================
@@ -931,15 +942,15 @@ blockquote {
 }
 
 #article_footer {
-	margin-top: 50px;
-	text-align: center;
-	color: #333;
+  margin-top: 50px;
+  text-align: center;
+  color: #333;
 }
 #article_footer a {
-	color: #333;
-	font-weight: normal !important;
-	text-decoration: none;
-	font-size: 0.9em;
+  color: #333;
+  font-weight: normal !important;
+  text-decoration: none;
+  font-size: 0.9em;
 }
 
 /* ==========================================================================
@@ -1001,10 +1012,10 @@ blockquote {
     top: 2px;
   }
   #logo-mobile {
-	display: inline;
+    display: inline;
   }
   #logo-desktop {
-	display: none;
+    display: none;
   }
   .login > header {
     position: static;

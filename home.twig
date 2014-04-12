@@ -56,7 +56,10 @@
 
                 {% endfor %}
             </div>
-            {% if view == 'home' %}{% if nb_results > 1 %}<a title="{% trans "Mark all the entries as read" %}"  href="./?action=archive_all">{{ "Mark all the entries as read" }}</a>{% endif %}{% endif %}
+            {% if view == 'home' and nb_results > 1 %}
+            <div id="bottom-list-tools">
+                <a title="{% trans "Mark all the entries as read" %}"  href="./?action=archive_all">{% trans "Mark all the entries as read" %}</a>
+            </div>
             {% endif %}
             {{ block('pager') }}
 {% endblock %}

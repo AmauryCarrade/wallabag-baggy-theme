@@ -1,8 +1,9 @@
 <div id="search-form" class="messages info">			
 <form method="get" action="index.php">
+		<h2><a href="javascript: void(null);" id="search-form-close">×</a>{% trans "search" %}</h2>
 		<input type="hidden" name="view" value="search"></input>
-        <label><a href="javascript: void(null);" id="search-form-close">X</a>{% trans "Search" %}</label> : <input type="text" name="search" />
-		<input id="submit-search" type="submit" value="{% trans "Search" %} !"></input>
+        <label>{% trans "search" %}</label> : <input type="text" name="search" />
+		<input id="submit-search" type="submit" value="{% trans "search" %} !"></input>
 </form>
 </div>
 <script type="text/javascript">
@@ -15,7 +16,8 @@
             $("#search").toggleClass("current");
             $("#search-arrow").toggleClass("arrow-down");
         });
-
-
+        $('#search-form-close').click(function() {
+            $('#search-form').hide();
+        });
     });
 </script>
