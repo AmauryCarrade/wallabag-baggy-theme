@@ -64,6 +64,9 @@ body {
   top: 0.4em;
   left: 0.6em; 
 }
+#logo-mobile {
+	display: none;
+}
 
 h2, h3, h4 {
   font-family: 'PT Sans', sans-serif;
@@ -998,7 +1001,13 @@ blockquote {
     width: 1.5em;
     height: 1.5em;
     left: 0;
-    top: 0;
+    top: 2px;
+  }
+  #logo-mobile {
+	display: inline;
+  }
+  #logo-desktop {
+	display: none;
   }
   .login > header {
     position: static;
