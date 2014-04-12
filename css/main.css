@@ -972,9 +972,6 @@ blockquote {
     width: 100%;
     margin-left: 0;
   }
-  #display-mode {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 500px) {
@@ -1071,10 +1068,6 @@ blockquote {
     padding: 0.3em 0.4em 0.2em;
   }
   
-  #display-mode {
-    display: none;
-  }
-
   #bagit-form {
     left: 0;
   }
